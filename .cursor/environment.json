@@ -1,0 +1,13 @@
+{
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
+  "install": ".cursor/install.sh",
+  "terminals": [
+    {
+      "name": "docker compose up",
+      "command": "docker compose up"
+    }
+  ]
+}
